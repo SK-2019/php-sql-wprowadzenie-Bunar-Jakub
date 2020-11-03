@@ -10,6 +10,8 @@
 
 
 <?php
+    require("connect.php");
+    echo("<h2>Zadanie 1: SELECT * FROM pracownicy</h2>");
     $conn = new mysqli("mysql-jakub-bunar.alwaysdata.net","217227","Jakub200318","jakub-bunar_fajnanauka");  
     $result = $conn->query('SELECT * FROM pracownicy');
         echo("<table border=1>");
@@ -25,6 +27,8 @@
             }
 
         echo("</table>");
+    require("connect.php");
+    echo("<h2>Zadanie 2: SELECT * FROM pracownicy where imie like %a</h2>");
         $conn = new mysqli("mysql-jakub-bunar.alwaysdata.net","217227","Jakub200318","jakub-bunar_fajnanauka");  
     $result = $conn->query('SELECT * FROM pracownicy where imie like "%a"'); 
         echo("<table border=1>");
@@ -40,6 +44,8 @@
             }
 
         echo("</table>");
+    require("connect.php");
+    echo("<h2>Zadanie 3: SELECT * FROM pracownicy where (dzial=1 or dzial=3)</h2>");  
         $conn = new mysqli("mysql-jakub-bunar.alwaysdata.net","217227","Jakub200318","jakub-bunar_fajnanauka");  
     $result = $conn->query('SELECT * FROM pracownicy where (dzial=1 or dzial=3)'); 
         echo("<table border=1>");
@@ -57,6 +63,8 @@
         echo("</table>");
 
         echo("</table>");
+    require("connect.php");
+    echo("<h2>Zadanie 4: SELECT * FROM pracownicy where dzial=2</h2>");
         $conn = new mysqli("mysql-jakub-bunar.alwaysdata.net","217227","Jakub200318","jakub-bunar_fajnanauka");  
     $result = $conn->query('SELECT * FROM pracownicy where dzial=2');
         echo("<table border=1>");
@@ -74,6 +82,8 @@
         echo("</table>");
 
         echo("</table>");
+    require("connect.php");
+    echo("<h2>Zadanie 5: SELECT * FROM pracownicy where zarobki>=40</h2>");
         $conn = new mysqli("mysql-jakub-bunar.alwaysdata.net","217227","Jakub200318","jakub-bunar_fajnanauka");  
     $result = $conn->query('SELECT * FROM pracownicy where zarobki>=40'); 
         echo("<table border=1>");
