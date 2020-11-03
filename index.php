@@ -13,7 +13,7 @@
     require("connect.php");
     echo("<h2>Zadanie 1: SELECT * FROM pracownicy</h2>");
     $conn = new mysqli("mysql-jakub-bunar.alwaysdata.net","217227","Jakub200318","jakub-bunar_fajnanauka");  
-    $result = $conn->query('SELECT * FROM pracownicy');
+    $result = $conn->query('SELECT imie, zarobki, data_urodzenia,nazwa_dzial FROM `pracownicy`, `organizacja` WHERE dzial = id_org');
         echo("<table border=1>");
         echo("<th>Id</th>"); 
         echo("<th>Imie</th>");
