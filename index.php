@@ -78,3 +78,8 @@
             }
 
         echo("</table>");
+?>
+    
+</body>
+</html>
+
