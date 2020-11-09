@@ -1,8 +1,14 @@
 body {
-    background-color: pink;
-  }
-  
-  h1 {
-    color: blue;
-    margin-left: 20px;
-  }
+    background-color: skyblue;
+    }
+h2{
+    color: red;
+}
+
+nav{
+    color: red
+}
+
+table{
+    color: red;
+}
