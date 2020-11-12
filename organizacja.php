@@ -8,7 +8,6 @@
 </head>
 <body>
 <div class=nav>
-    <a href="organizacja_2.php">Pracownicy i Organizacja Cz.2</a>
     <a href="pracownicy.php">Pracownicy</a>
     <a href="organizacja.php">Pracownicy i Organizacja</a>
     <a href="funkcje.php">Funkcje Agrygujące</a>
