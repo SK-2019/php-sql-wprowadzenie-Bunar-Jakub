@@ -17,6 +17,10 @@
 
 
 </div>
+     <form action="strona.php" method="POST">
+        <input type="text" name="name">
+        <input type="submit" value="wyślij w świat">
+    </form>
 
 <?php
 
