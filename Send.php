@@ -8,7 +8,11 @@
 <body>
     
     <form action="stuff.php" method="post">
-        <input type="text" name="name">
+      <input type="text" name="Firstname"></br>
+        <input type="text" name="Lastname"></br>
+        <input type="text" name="Phone"></br>
+        <input type="text" name="City"></br>
+      
         <input type="submit" value="wyślij">
     </form>    
 </body>
