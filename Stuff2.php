@@ -14,13 +14,16 @@
     
     
 <?php
-
-echo("<li> Imie:".$_POST["Firstname"]."</li>");
-echo("<li> Nazwisko:".$_POST["Lastname"]."</li>");
-echo("<li> Nr.Tel:".$_POST["Phone"]."</li>");
-echo("<li> Miasto:".$_POST["City"]."</li>");
+    
+include("connect.php");
+echo("<h2> Imie:".$_POST["Firstname"]."</h2>");
+echo("<h2> Nazwisko:".$_POST["Lastname"]."</h2>");
+echo("<h2> Nr.Tel:".$_POST["Phone"]."</h2>");
+echo("<h2> Miasto:".$_POST["City"]."</h2>");
 echo("<h2> Kod Pocztowy:".$_POST["Postcode"]."</h2>");
-
+    
+$sql="INSERT INTO 'pracownicy'('id', 'imie', 'dzial', 'zarobki', 'data_urodzenia') VALUES (null,'józef',2,23,'2001-10-23')";
+$conn->query($sql);
 
 ?>
     
