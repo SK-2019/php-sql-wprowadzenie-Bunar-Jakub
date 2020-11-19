@@ -8,12 +8,18 @@
 </head>
 <body>
 
+ <div>
+
+</div>
+    
+    
 <?php
 
 echo("<li> Imie:".$_POST["Firstname"]."</li>");
 echo("<li> Nazwisko:".$_POST["Lastname"]."</li>");
 echo("<li> Nr.Tel:".$_POST["Phone"]."</li>");
 echo("<li> Miasto:".$_POST["City"]."</li>");
+echo("<h2> Kod Pocztowy:".$_POST["Postcode"]."</h2>");
 
 
 ?>
