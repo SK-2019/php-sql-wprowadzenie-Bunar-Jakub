@@ -8,13 +8,14 @@
 </head>
 <body>
     
-    <form action="stuff.php" method="post">
-      <input type="text" name="Firstname"></br>
-        <input type="text" name="Lastname"></br>
-        <input type="text" name="Phone"></br>
-        <input type="text" name="City"></br>
-      <input type="text" name="Postcode"></br>
+    <form action="stuff2.php" method="post">
+        <input type="text" name="Fname" placeholder="Imię"></br>
+        <input type="text" name="Lname" placeholder="Nazwisko"></br>
+        <input type="text" name="Phone" placeholder="Nr.Tel"></br>
+        <input type="text" name="City" placeholder="Miasto"></br>
+        <input type="text" name="Postcode" placeholder="Kod Pocztowy"></br>
         <input type="submit" value="wyślij">
     </form>    
 </body>
 </html>
+
