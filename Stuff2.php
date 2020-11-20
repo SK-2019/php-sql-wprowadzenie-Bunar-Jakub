@@ -22,9 +22,18 @@ echo("<h2> Nr.Tel:".$_POST["Phone"]."</h2>");
 echo("<h2> Miasto:".$_POST["City"]."</h2>");
 echo("<h2> Kod Pocztowy:".$_POST["Postcode"]."</h2>");
     
-$sql="INSERT INTO 'pracownicy'('id', 'imie', 'dzial', 'zarobki', 'data_urodzenia') VALUES (null,'józef',2,23,'2001-10-23')";
-$conn->query($sql);
+require("connect.php");
+$sql="INSERT INTO 'pracownicy'('id', 'imie', 'dzial', 'zarobki', 'data_urodzenia') VALUES(
+        null,
+        $_POST['imie'],
+        $_POST['dzial'],
+        $_POST['zarobki'],
+        $_POST['data_urodzenia'],
+        ");
 
+$conn->query($sql);
+$sql2='SELECT * FROM pracownicy'
+echo($sql2)
 ?>
     
 </body>
