@@ -12,7 +12,7 @@
       die("Connection failed: " . $conn->connect_error);
     }
     
-    $sql = "INSERT INTO Pracownik (null, imie, dzial, zarobki, data_urodzenia) 
+    $sql = "INSERT INTO pracownicy (null, imie, dzial, zarobki, data_urodzenia) 
            VALUES (null,'Ksawery', 3, 36,'1995-10-21')";
     
     
