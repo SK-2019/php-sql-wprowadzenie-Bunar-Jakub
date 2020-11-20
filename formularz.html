@@ -3,29 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <title>Formularz</title>
 </head>
 <body>
-<div class="nav"> 
-    <a href="https://github.com/SK-2019/php-sql-wprowadzenie-Bunar-Jakub">GITHUB</a>
-     | 
-    <a href="index.php">Index</a>
-     | 
-    <a href="pracownicy.php">Pracownicy</a>
-     | 
-    <a href="organizacja.php">Organizacja i Pracownicy</a>
-     | 
-    <a href="funkcje.php">Funkcje agregujące</a>
-     | 
-    <a href="dataczas.php">Data i Czas</a>
-     | 
-    <a href="formularz.html">Formularz</a>
-</div>
-  <br>
-    <form action="strona.php" method="POST">
-    <input type="text" name="firstname"></br>
-    <input type="submit" value="wyślij do strona.php">
-</form>
+
+    <div class=nav>
+        <a href="pracownicy.php">Pracownicy</a>
+        <a href="organizacja.php">Pracownicy i Organizacja</a>
+        <a href="funkcje.php">Funkcje Agrygujące</a>
+        <a href="dataczas.php">Data i Czas</a>
+        <a href="https://github.com/SK-2019/php-sql-wprowadzenie-Bunar-Jakub">Github</a>
+        <a href="formularz.html">Zakładka testowa</a>
+    
+    
+    </div>
+    
+    <form action="stuff2.php" method="post">
+        <input type="text" name="imie" placeholder="Imię"></br>
+        <input type="text" name="nazwisko" placeholder="Nazwisko"></br>
+        <input type="text" name="nr.tel" placeholder="nr.tel"></br>
+        <input type="text" name="post" placeholder="Kod Pocztowy"></br>
+        <input type="text" name="city" placeholder="Miasto"></br>
+
+        <input type="submit" value="SEND">
+    </form>    
+    
 </body>
 </html>
