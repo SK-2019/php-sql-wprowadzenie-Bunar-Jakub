@@ -16,11 +16,11 @@
 <?php
     
 include("connect.php");
-echo("<h2> Imie:".$_POST["Firstname"]."</h2>");
-echo("<h2> Nazwisko:".$_POST["Lastname"]."</h2>");
-echo("<h2> Nr.Tel:".$_POST["Phone"]."</h2>");
-echo("<h2> Miasto:".$_POST["City"]."</h2>");
-echo("<h2> Kod Pocztowy:".$_POST["Postcode"]."</h2>");
+echo("<h2> Imie:".$_POST["imie"]."</h2>");
+echo("<h2> Dzial:".$_POST["dzial"]."</h2>");
+echo("<h2> Zarobki:".$_POST["zarobki"]."</h2>");
+echo("<h2> Data_urodzenia:".$_POST["data_urodzenia"]."</h2>");
+
     
 require("connect.php");
 $sql="INSERT INTO 'pracownicy'('id', 'imie', 'dzial', 'zarobki', 'data_urodzenia') VALUES(
