@@ -25,7 +25,7 @@
 
 echo("<h2> Imie:".$_POST["imie"]."</h2>");
 echo("<h2> Nazwisko:".$_POST["nazwisko"]."</h2>");
-echo("<h2> Nr.Tel:".$_POST["nr.tel"]."</h2>");
+echo("<h2> Nr.Tel:".$_POST["tel"]."</h2>");
 echo("<h2> Kod Pocztowy:".$_POST["post"]."</h2>");
 echo("<h2> Miasto:".$_POST["city"]."</h2>");
 
