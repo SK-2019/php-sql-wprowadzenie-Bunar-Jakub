@@ -15,6 +15,7 @@
     <a href="https://github.com/SK-2019/php-sql-wprowadzenie-Bunar-Jakub">Github</a>
     <a href="formularz.html">Zakładka testowa</a>
     <a href="daneDoBazy.html">WIP</a>
+    <a href="delete.html">Delete(wip)</a>
 
 
 </div>
