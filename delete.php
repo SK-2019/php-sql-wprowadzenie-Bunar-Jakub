@@ -7,6 +7,20 @@
     <title>DELphp</title>
 </head>
 <body>
+
+    
+    <div class=nav>
+    <a href="pracownicy.php">Pracownicy</a>
+    <a href="organizacja.php">Pracownicy i Organizacja</a>
+    <a href="funkcje.php">Funkcje Agregujące</a>
+    <a href="dataczas.php">Data i Czas</a>
+    <a href="https://github.com/SK-2019/php-sql-wprowadzenie-Jojko-Patryk">Github</a>
+    <a href="formularz.html">Zakładka testowa</a>
+    <a href="daneDoBazy.php">Dane Do Bazy</a>
+    <a href="delete.html">Delete(wip)</a>
+
+
+</div>
 <?php
 
 echo("<h2> ID pracownika wybranego do usunięcia:".$_POST["id"]."</h2>"); 
@@ -28,7 +42,31 @@ if ($conn->query($sql) === TRUE) {
   
   $conn->close();
 
+  require("connect.php");
+    $sql = ('SELECT * FROM pracownicy');
+    echo("<h2>Pracownicy</h2>");
+    echo("<h3>".$sql."</h3>");
+        $result = $conn->query($sql);
+            echo("<table border=1>");
+            echo("<th>ID</th>");
+            echo("<th>Imie</th>");
+            echo("<th>Zarobki</th>");
+            echo("<th>Data_Urodzenia</th>");
+            echo("<th>Dział</th>");
+            while($row=$result->fetch_assoc()){ 
+            echo("<tr>");
+                echo("<td>".$row["id_pracownicy"]."</td><td>".$row["imie"]."</td><td>".$row["zarobki"]."</td><td>".$row["data_urodzenia"]."</td><td>".$row["dzial"]."</td>");
 
+
+                
+
+
+
+
+            echo("</tr>");
+        }
+
+        echo("</table>");
 
 
 
