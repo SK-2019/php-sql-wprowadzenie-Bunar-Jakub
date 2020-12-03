@@ -14,6 +14,7 @@
     <a href="dataczas.php">Data i Czas</a>
     <a href="https://github.com/SK-2019/php-sql-wprowadzenie-Bunar-Jakub">Github</a>
     <a href="formularz.html">Zakładka testowa</a>
+    <a href="daneDoBazy.php">Dane Do Bazy</a>
     
 
 
