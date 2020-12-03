@@ -27,11 +27,10 @@
         <input type="date" name="data_urodzenia" placeholder="Data Urodzenia"></br>
         <input type="submit" value="Dodaj">
     </form>
-
+    <br>
     <form action="delete.php" method="post">
         <input type="number" name="id" placeholder="ID pracownika"></br>
      
-
         <input type="submit" value="Usun">
     </form>  
     
