@@ -35,7 +35,7 @@ $result=$conn->query($sql);
 
        while($row=$result->fetch_assoc()) {
                 echo("<tr>");
-                    echo("<td>".$row["id"]."</td><td>".$row["autor"]."</td><td>".$row["tytul"]."</td>"););
+                    echo("<td>".$row["id"]."</td><td>".$row["autor"]."</td><td>".$row["tytul"]."</td>");
                 echo("</tr>");
             }
         echo("</table>");
