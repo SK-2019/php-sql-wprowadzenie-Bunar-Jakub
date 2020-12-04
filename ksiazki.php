@@ -24,7 +24,7 @@
 
 require("connect.php");
 
-$sql = ("$sql = 'SELECT * FROM biblAutor, biblTytul, biblAutor_biblTytul WHERE biblAutor_id=biblAutor.id and biblTytul_id=biblTytul.id'");
+$sql = ("'SELECT * FROM biblAutor, biblTytul, biblAutor_biblTytul WHERE biblAutor_id=biblAutor.id and biblTytul_id=biblTytul.id'");
 echo("<h2>"$sql."</h2>");
 
 $result=$conn->query($sql);
