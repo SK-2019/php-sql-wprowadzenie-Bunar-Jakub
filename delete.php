@@ -68,7 +68,7 @@ if ($conn->query($sql) === TRUE) {
         }
 
         echo("</table>");
-        header("daneDoBazy.php");
+        header("location:daneDoBazy.php");
 
 
 
