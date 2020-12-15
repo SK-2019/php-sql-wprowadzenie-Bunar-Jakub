@@ -54,7 +54,7 @@ require("connect.php");
                 echo("<td>".$row["id_pracownicy"]."</td><td>".$row["imie"]."</td><td>".$row["zarobki"]."</td><td>".$row["data_urodzenia"]."</td><td>".$row["dzial"]."</td>
                 <td>
                     <form action='delete.php' method='POST'>
-                        <input type='number name='id' value='".$row['id_pracownicy']."' hidden></br>
+                        <input type='text' name='id' value='".$row['id_pracownicy']."' hidden></br>
                         <input type='submit' value='Usuń'>
                     </form>
                     </td>
