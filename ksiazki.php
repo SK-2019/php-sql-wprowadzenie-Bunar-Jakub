@@ -6,6 +6,7 @@
     <title>Jakub Bunar</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 <div class=nav>
     <a href="https://github.com/SK-2019/php-sql-wprowadzenie-Bunar-Jakub">Github</a>
