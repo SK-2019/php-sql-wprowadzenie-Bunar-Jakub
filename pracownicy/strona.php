@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=], initial-scale=1.0">
-    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="../assets/style.css">
     <title>Tekst</title>
 </head>
 <body>
@@ -16,7 +16,7 @@
     <a href="https://github.com/SK-2019/php-sql-wprowadzenie-Bunar-Jakub">Github</a>
     <a href="formularz.html">Zakładka testowa</a>
     <a href="daneDoBazy.php">Dane Do Bazy</a>
-    <a href="ksiazki.php">Ksiazki</a>
+    <a href="../assets/ksiazki.php">Ksiazki</a>
 
 
 </div>
