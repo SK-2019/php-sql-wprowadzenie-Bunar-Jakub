@@ -10,12 +10,12 @@
 <body>
 <div class=nav>
     <a href="https://github.com/SK-2019/php-sql-wprowadzenie-Bunar-Jakub">Github</a>
-    <a href="../biblioteka/pracownicy.php">Pracownicy</a>
-    <a href="../biblioteka/organizacja.php">Pracownicy i Organizacja</a>
-    <a href="../biblioteka/funkcje.php">Funkcje Agrygujące</a>
-    <a href="../biblioteka/dataczas.php">Data i Czas</a>
-    <a href="../biblioteka/formularz.html">Zakładka testowa</a>
-    <a href="../biblioteka/daneDoBazy.php">Dane Do Bazy</a>
+    <a href="../pracownicy/pracownicy.php">Pracownicy</a>
+    <a href="../pracownicy/organizacja.php">Pracownicy i Organizacja</a>
+    <a href="../pracownicy/funkcje.php">Funkcje Agrygujące</a>
+    <a href="../pracownicy/dataczas.php">Data i Czas</a>
+    <a href="../pracownicy/formularz.html">Zakładka testowa</a>
+    <a href="../pracownicy/daneDoBazy.php">Dane Do Bazy</a>
     <a href="ksiazki.php">Ksiazki</a>
     
 
