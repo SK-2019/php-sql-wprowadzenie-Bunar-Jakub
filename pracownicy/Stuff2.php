@@ -7,12 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-
- <div>
-
-</div>
-    
-    
+  
 <?php
     
 include("connect.php");

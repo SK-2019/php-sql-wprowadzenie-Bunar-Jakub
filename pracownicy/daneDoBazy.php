@@ -16,7 +16,7 @@
     <a href="formularz.html">Zakładka testowa</a>
     <a href="daneDoBazy.php">Dane Do Bazy</a>
     <a href="delete.html">Delete(wip)</a>
-    <a href="../assets/ksiazki.php">Ksiazki</a>
+    <a href="../biblioteka/ksiazki.php">Ksiazki</a>
 
 
 </div>

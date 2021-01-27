@@ -15,7 +15,7 @@
     <a href="https://github.com/SK-2019/php-sql-wprowadzenie-Bunar-Jakub">Github</a>
     <a href="formularz.html">Zakładka testowa</a>
     <a href="daneDoBazy.php">Dane Do Bazy</a>
-    <a href="../assets/ksiazki.php">Ksiazki</a>
+    <a href="../biblioteka/ksiazki.php">Ksiazki</a>
 </div>
 <?php
 
