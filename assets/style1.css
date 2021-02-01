@@ -9,6 +9,7 @@ nav{
     color: red
 }
 .nav{
+    display: flex;
     margin-bottom:15px;
     flex-direction: column;
 }
