@@ -7,16 +7,16 @@
     <title>Tekst</title>
 </head>
 <body>
-
+<h1>Jakub Bunar nr3</h1>    
 <div class=nav>
-    <a href="pracownicy.php">Pracownicy</a>
-    <a href="organizacja.php">Pracownicy i Organizacja</a>
-    <a href="funkcje.php">Funkcje Agrygujące</a>
-    <a href="dataczas.php">Data i Czas</a>
-    <a href="https://github.com/SK-2019/php-sql-wprowadzenie-Bunar-Jakub">Github</a>
-    <a href="formularz.html">Zakładka testowa</a>
-    <a href="daneDoBazy.php">Dane Do Bazy</a>
-    <a href="../biblioteka/ksiazki.php">Ksiazki</a>
+    <a class=navlink href="pracownicy.php">Pracownicy</a>
+    <a class=navlink href="organizacja.php">Pracownicy i Organizacja</a>
+    <a class=navlink href="funkcje.php">Funkcje Agrygujące</a>
+    <a class=navlink href="dataczas.php">Data i Czas</a>
+    <a class=navlink href="https://github.com/SK-2019/php-sql-wprowadzenie-Bunar-Jakub">Github</a>
+    <a class=navlink href="formularz.html">Zakładka testowa</a>
+    <a class=navlink href="daneDoBazy.php">Dane Do Bazy</a>
+    <a class=navlink href="../biblioteka/ksiazki.php">Ksiazki</a>
 
 
 </div>
