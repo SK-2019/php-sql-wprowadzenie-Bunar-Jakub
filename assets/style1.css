@@ -7,7 +7,7 @@ h2{
 h1{
     color: black;
     margin-top: 20px;
-    font-size: 25px;
+    font-size: 40px;
     font-family: Helvetica, Verdana, Arial;
     text-align: center;
 }
@@ -24,13 +24,13 @@ table{
 }
 .navlink{
     background-color: #f8f9fa;
-    border: 1px solid #f8f9fa;
+    border: 1px solid #cad4df;
     border-radius: 4px;
     color: #3c4043;
     font-family: arial,sans-serif;
     font-size: 14px;
     margin: 11px 4px;
-    padding: 4px 16px;
+    padding: 8px 18px;
     text-align: center;
     cursor: pointer;
 }
