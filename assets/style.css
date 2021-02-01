@@ -1,14 +1,29 @@
 body {
     background-color: skyblue;
-    }
-h2{
+}
+h2 {
     color: red;
 }
 
-nav{
+nav {
     color: red
 }
 
 table{
     color: red;
+}
+.nav{
+    font-size: 13px;
+    line-height: 22px;
+    height: 32px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 4px 15px;
+    font-weight: 600;
+    white-space: nowrap;
+    cursor: pointer;
+    color: #79589f;
+    background: #fff;
 }
