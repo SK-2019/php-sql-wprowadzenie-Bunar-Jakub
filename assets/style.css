@@ -34,3 +34,33 @@ table{
     text-align: center;
     cursor: pointer;
 }
+.container {
+    background-color: lightgray;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.item {
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+  
+  }
+  .colorRed {
+    background-color: darkgray;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .colorBlue {
+    background-color: gainsboro;
+    width: auto;
+    max-width: 20%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: column;
+    flex-direction: column
+  }
