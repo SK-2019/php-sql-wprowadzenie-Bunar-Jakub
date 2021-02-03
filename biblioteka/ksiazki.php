@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jakub Bunar</title>
     <link rel="stylesheet" href="../assets/style.css">
-</head>
+</head> 
+
 
 <body>
 <h1>Jakub Bunar nr3</h1>
