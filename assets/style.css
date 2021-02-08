@@ -33,12 +33,18 @@ table{
     padding: 8px 18px;
     text-align: center;
     cursor: pointer;
+    width: 20%;
 }
 .container {
     background-color: lightgray;
     display: flex;
     flex-wrap: wrap;
-
+    width:100%;
+}
+.heading {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
 }
 .item {
     width: 200px;
