@@ -9,9 +9,7 @@
 
 <body>
 <div class="container">
-<div class="heading">
-<h1>Jakub Bunar nr3</h1>
-</div>
+<div class="heading"><h1>Jakub Bunar nr3</h1></div>
 <div class=nav>
     <a class="navlink" href="https://github.com/SK-2019/php-sql-wprowadzenie-Bunar-Jakub">Github</a>
     <a class="navlink" href="../pracownicy/pracownicy.php">Pracownicy</a>
