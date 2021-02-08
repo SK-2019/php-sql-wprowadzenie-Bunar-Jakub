@@ -15,7 +15,7 @@ nav{
     color: red
 }
 .nav{
-    margin-bottom:15px;
+    margin:15px 0px;
     display:flex;
     width: 20%;
     flex-direction: column;
@@ -23,6 +23,7 @@ nav{
 table{
     color: red;
 }
+
 .navlink{
     background-color: #f8f9fa;
     border: 1px solid #cad4df;
