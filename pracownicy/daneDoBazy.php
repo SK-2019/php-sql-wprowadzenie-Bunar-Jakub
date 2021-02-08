@@ -22,8 +22,6 @@
     <a class="navlink" href="../biblioteka/ksiazki.php">Ksiazki</a>
 </div>
 
-<div class="php">
-<?php
 
 
     <form action="insert.php" method="post">
@@ -39,7 +37,9 @@
      
         <input type="submit" value="Usun">
     </form>  
-    
+ 
+<div class="php">
+<?php
 
 require("../assets/connect.php");
     $sql = ('SELECT * FROM pracownicy');
