@@ -38,8 +38,7 @@ table{
 .container {
     background-color: lightgray;
     display: flex;
-    flex-wrap: wrap;
-    width:100%;
+    width: 100%;
 }
 .heading {
     display: flex;
