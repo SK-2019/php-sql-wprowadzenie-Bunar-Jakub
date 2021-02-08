@@ -25,6 +25,7 @@ table{
 }
 
 .navlink{
+    display: block;
     background-color: #f8f9fa;
     border: 1px solid #cad4df;
     border-radius: 4px;
