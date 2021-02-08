@@ -38,10 +38,14 @@ table{
 .container {
     background-color: lightgray;
     display: flex;
+    flex-wrap: nowrap;
     width: 100%;
 }
 .heading {
     width: 90%;
+}
+.phpp {
+    width: 75%;
 }
 .item {
     width: 200px;
