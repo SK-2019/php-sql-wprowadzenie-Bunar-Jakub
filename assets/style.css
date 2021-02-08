@@ -42,9 +42,10 @@ table{
     width: 100%;
 }
 .heading {
-    width: 90%;
+    width: 100%;
+    display:block;
 }
-.phpp {
+.php {
     width: 75%;
 }
 .item {
