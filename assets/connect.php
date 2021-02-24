@@ -15,5 +15,5 @@ $conn= new mysqli($servername , $username, $password, $dbname);
         die("connection failed: ".mysqli_connect_error());
 
     }
-
+    
 ?>
