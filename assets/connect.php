@@ -9,7 +9,7 @@ $hostname = $_SERVER['HTTP_HOST'];
 // echo("<li> hostname : ".$hostname);
 // echo("<li> SERVER passsword: ".$_SERVER['password']);
 
-    if ($hostname == 'localhost:8003') {
+    if ($hostname == 'bunar-jakub.herokuapp.com') {
         require_once ("config.php");
     }
 
