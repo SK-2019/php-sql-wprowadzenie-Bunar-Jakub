@@ -5,7 +5,10 @@ $username = $_SERVER['username'];
 $password = $_SERVER['password'];
 $dbname = $_SERVER['dbname'];
 
-$hostname = $_SERVER['HTTP_HOST'];
+$hostname = $_SERVER['HTTP_HOST']; 
+echo("<li> hostname : ".$hostname);
+echo("<li> SERVER passsword: ".$_SERVER['password']);
+
     if ($hostname == 'localhost:8003') {
         require_once ("config.php");
     }

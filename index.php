@@ -28,6 +28,7 @@
     </form>
 
 <?php
+require_once("assets/connect.php");
 ?>
     
 </body>
