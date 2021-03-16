@@ -28,6 +28,7 @@
     </form>
 
 <?php
+echo("Test");
 require_once("assets/connect.php");
 ?>
     
