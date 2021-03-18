@@ -28,7 +28,7 @@
     </form>
 <div class="php">
 <?php
-echo("Data i czas : " .date ("Y-m-d h:i:sa"));
+
 echo("<br>");
 require("assets/connect.php");
     echo("Wszyscy pracownicy");
