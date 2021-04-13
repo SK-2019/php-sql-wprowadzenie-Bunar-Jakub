@@ -21,7 +21,6 @@
 </div>
 <div class="php">
 <?php
-
     require("../assets/connect.php");
     echo("Pracownicy tylko z działu 2");
         $result = $conn->query('SELECT imie, zarobki, data_urodzenia, dzial FROM pracownicy WHERE dzial=2');
