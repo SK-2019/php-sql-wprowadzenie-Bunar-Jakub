@@ -182,7 +182,7 @@
     border-radius: 1px;
     margin: 1px;
     transition: 0.2s;
-    display: inline-block;
+    display: block;
 }
                 
 .link4:hover {
