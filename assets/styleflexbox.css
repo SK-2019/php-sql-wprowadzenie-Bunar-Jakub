@@ -143,6 +143,7 @@
     border-radius: 1px;
     margin: 1px;
     transition: 0.2s;
+    display: inline-block;
 }
         
 .link2:hover {
@@ -162,6 +163,7 @@
     border-radius: 1px;
     margin: 1px;
     transition: 0.2s;
+    display: inline-block;
 }           
 .link3:hover {
     background-color: rgb(20, 24, 255);
@@ -180,7 +182,7 @@
     border-radius: 1px;
     margin: 1px;
     transition: 0.2s;
-    display: block;
+    display: inline-block;
 }
                 
 .link4:hover {
