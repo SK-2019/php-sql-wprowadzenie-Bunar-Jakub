@@ -164,6 +164,7 @@
     margin: 1px;
     transition: 0.2s;
     display: inline-block;
+    width: 30%;
 }           
 .link3:hover {
     background-color: rgb(20, 24, 255);
@@ -182,7 +183,8 @@
     border-radius: 1px;
     margin: 1px;
     transition: 0.2s;
-    display: block;
+    display: inline-block;
+    width: 30%;
 }
                 
 .link4:hover {
