@@ -20,6 +20,7 @@
     <a class=navlink href="pracownicy/daneDoBazy.php">WIP</a>
     <a class=navlink href="pracownicy/delete.html">Delete(wip)</a>
     <a class=navlink href="biblioteka/ksiazki.php">Ksiazki</a>
+    <a class=navlink href="assets/flexbox.html">Flexbox</a>
 </div>
 
      <form action="strona.php" method="POST">
