@@ -3,8 +3,6 @@
     width: 70%;
     height: 450px;
     margin: 8px;
-    display: flex;
-    justify-content: flex-end;
 }
 
 .nav {
@@ -124,6 +122,7 @@
     font-size: 15px;
     transition: 0.3s;
     display: inline-block;
+    height: 20%;
     }
     
 .link:hover {
@@ -144,6 +143,7 @@
     margin: 1px;
     transition: 0.2s;
     display: inline-block;
+    height: 20%;
 }
         
 .link2:hover {
