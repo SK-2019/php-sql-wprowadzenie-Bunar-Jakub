@@ -113,3 +113,79 @@
     margin: 8px;
     display: flex;
 }
+.link {
+    background-color: rgb(20, 255, 140);
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 1px;
+    margin: 1px;
+    transition: 0.2s;
+    }
+    
+    .link:hover {
+    background-color: rgb(122, 151, 137);
+    padding: 15;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 37px;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 20px;
+    margin: 5px
+    }
+    .link2 {
+        background-color: rgb(20, 255, 140);
+        text-decoration: none;
+        padding: 10px;
+        border-radius: 1px;
+        margin: 1px;
+        transition: 0.2s;
+        }
+        
+        .link2:hover {
+        background-color: rgb(163, 161, 59);
+        padding: 15;
+        border-bottom-right-radius: 27px;
+        border-bottom-left-radius: 30px;
+        border-top-right-radius: 25px;
+        border-top-left-radius: 50px;
+        margin: 5px
+        }
+        .link3 {
+            background-color: rgb(20, 255, 140);
+            text-decoration: none;
+            padding: 10px;
+            border-radius: 1px;
+            margin: 1px;
+            transition: 0.2s;
+            display: block;
+            }
+            
+            .link3:hover {
+            background-color: rgb(20, 24, 255);
+            padding: 15;
+            border-bottom-right-radius: 40px;
+            border-bottom-left-radius: 50px;
+            border-top-right-radius: 50px;
+            border-top-left-radius: 35px;
+            margin: 5px
+            display: block;
+            }
+            .link4 {
+                background-color: rgb(20, 255, 140);
+                text-decoration: none;
+                padding: 10px;
+                border-radius: 1px;
+                margin: 1px;
+                transition: 0.2s;
+                display: block;
+                }
+                
+                .link4:hover {
+                background-color: rgb(255, 20, 20);
+                padding: 15;
+                border-bottom-right-radius: 31px;
+                border-bottom-left-radius: 27px;
+                border-top-right-radius: 10px;
+                border-top-left-radius: 50px;
+                margin: 5px
+                display: block;
+                }
