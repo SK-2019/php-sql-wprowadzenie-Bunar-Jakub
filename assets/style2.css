@@ -129,7 +129,7 @@
     border-bottom-left-radius: 37px;
     border-top-right-radius: 40px;
     border-top-left-radius: 20px;
-    margin: 5px
+    margin: 5px;
     }
     .link2 {
         background-color: rgb(20, 255, 140);
@@ -147,7 +147,8 @@
         border-bottom-left-radius: 30px;
         border-top-right-radius: 25px;
         border-top-left-radius: 50px;
-        margin: 5px
+        margin: 5px;
+        font-size: 20px;
         }
         .link3 {
             background-color: rgb(20, 255, 140);
@@ -166,7 +167,7 @@
             border-bottom-left-radius: 50px;
             border-top-right-radius: 50px;
             border-top-left-radius: 35px;
-            margin: 5px
+            margin: 5px;
             display: block;
             }
             .link4 {
@@ -186,6 +187,6 @@
                 border-bottom-left-radius: 27px;
                 border-top-right-radius: 10px;
                 border-top-left-radius: 50px;
-                margin: 5px
+                margin: 5px;
                 display: block;
                 }
