@@ -31,7 +31,7 @@
 <?php
 echo("Data i czas : " .date ("Y-m-d h:i:sa"));
 echo("<br>");
-require_once("/assets/connect.php");
+require_once("assets/connect.php");
     echo("Wszyscy pracownicy");
         $result = $conn->query('SELECT * from pracownicy');
             echo("<table border=1>");
