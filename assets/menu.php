@@ -8,3 +8,4 @@
     <a class=navlink href="../pracownicy/delete.html">Delete(wip)</a>
     <a class=navlink href="../biblioteka/ksiazki.php">Ksiazki</a>
     <a class=navlink href="assets/flexbox.html">Flexbox</a>
+    <a class=navlink href="../biblioteka/wieledowielu.php">WieleDoWielu</a>
