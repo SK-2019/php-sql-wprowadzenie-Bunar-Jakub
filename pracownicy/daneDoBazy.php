@@ -9,17 +9,11 @@
 <body>
 
 <div class="container">
-<div class="heading"><h1>Jakub Bunar nr3</h1></div>
-<div class="nav">
-    <a class="navlink" href="pracownicy.php">Pracownicy</a>
-    <a class="navlink" href="organizacja.php">Pracownicy i Organizacja</a>
-    <a class="navlink" href="funkcje.php">Funkcje Agregujące</a>
-    <a class="navlink" href="dataczas.php">Data i Czas</a>
-    <a class="navlink" href="https://github.com/SK-2019/php-sql-wprowadzenie-Bunar-Jakub">Github</a>
-    <a class="navlink" href="formularz.html">Zakładka testowa</a>
-    <a class="navlink" href="daneDoBazy.php">Dane Do Bazy</a>
-    <a class="navlink" href="delete.html">Delete(wip)</a>
-    <a class="navlink" href="../biblioteka/ksiazki.php">Ksiazki</a>
+<div class=nav>
+<?php
+include("../assets/header.php");
+include("../assets/menu.php");
+?>
 </div>
 
 
