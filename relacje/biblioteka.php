@@ -7,14 +7,14 @@
     <link rel="stylesheet" href="../assets/style.css">
 </head>
 <body>
-
 <div class="container">
-<div class="nav">
+<div class=nav>
 <?php
 include("../assets/header.php");
 include("../assets/menu.php");
 ?>
 </div>
+<div class="php">
 <?php
                 echo("<h1>Biblioteka</h1>");
 
