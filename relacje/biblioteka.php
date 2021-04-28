@@ -9,7 +9,7 @@
 <body>
 
 <div class="container">
-<div class=nav>
+<div class="nav">
 <?php
 include("../assets/header.php");
 include("../assets/menu.php");
