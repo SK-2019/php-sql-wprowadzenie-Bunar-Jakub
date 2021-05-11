@@ -33,6 +33,9 @@ include("../assets/menu.php");
                         while($row=$result->fetch_assoc()) {
                                 echo("<tr>");
                                     echo("<td>".$row["id"]."</td><td>".$row["lekarz"]."</td>");
+                                    echo("<td><form action='del2przychodnia.php' method=POST>");
+                                    echo("<input type='hidden' name='id' value='".$row['id']."'><input type='submit' value='DELETE'>");
+                                    echo("</form></td>");
                                 echo("</tr>");
                             }
                         echo("</table>");
@@ -50,12 +53,15 @@ include("../assets/menu.php");
                         while($row=$result->fetch_assoc()) {
                                 echo("<tr>");
                                     echo("<td>".$row["id"]."</td><td>".$row["pacjent"]."</td>");
+                                    echo("<td><form action='del3przychodnia.php' method=POST>");
+                                    echo("<input type='hidden' name='id' value='".$row['id']."'><input type='submit' value='DELETE'>");
+                                    echo("</form></td>");
                                 echo("</tr>");
                             }
                         echo("</table>");
 
 
-                $sql = ("SELECT * FROM lekarz, pacjent, lekarz_pacjent  where lekarz_id = lekarz.id and pacjent_id = pacjent.id");
+                $sql = ("SELECT *, lekarz_pacjent.id as lpid FROM lekarz, pacjent, lekarz_pacjent  where lekarz_id = lekarz.id and pacjent_id = pacjent.id");
                 echo("<h2>".$sql."</h2>");
                 $result=$conn->query($sql);
                 
@@ -67,7 +73,10 @@ include("../assets/menu.php");
                         while($row=$result->fetch_assoc()) {
                                 echo("<tr>");
                                     echo("<td>".$row["lekarz"]."</td><td>".$row["pacjent"]."</td>");
-                                echo("</tr>");
+                                    echo("<td><form action='del1przychodnia.php' method=POST>");
+                                    echo("<input type='hidden' name='id' value='".$row['lpid']."'><input type='submit' value='DELETE'>");
+                                    echo("</form></td>");
+                                    echo("</tr>");
                             }
                         echo("</table>");
 
