@@ -26,11 +26,15 @@ require_once("../assets/connect.php");
             echo("<table border=1>");
             echo("<th>id</th>");
             echo("<th>producent</th>");
+            echo("<th>DELETE</th>");
 
             while($row=$result->fetch_assoc()) {
                     echo("<tr>");
                         echo("<td>".$row["id"]."</td><td>".$row["producent"]."</td>");
-                    echo("</tr>");
+                        echo("<td><form action='del2sklep.php' method=POST>");
+                        echo("<input type='hidden' name='id' value='".$row['id']."'><input type='submit' value='DELETE'>");
+                        echo("</form></td>");
+                        echo("</tr>");
                 }
             echo("</table>");
 
@@ -45,12 +49,15 @@ require_once("../assets/connect.php");
             while($row=$result->fetch_assoc()) {
                     echo("<tr>");
                         echo("<td>".$row["id"]."</td><td>".$row["produkt"]."</td>");
-                    echo("</tr>");
+                        echo("<td><form action='del3sklep.php' method=POST>");
+                        echo("<input type='hidden' name='id' value='".$row['id']."'><input type='submit' value='DELETE'>");
+                        echo("</form></td>");
+                        echo("</tr>");
                 }
             echo("</table>");
 
 
-            $sql = ("SELECT * FROM producent, produkt, producent_produkt where producent_id = producent.id and produkt_id = produkt.id");
+            $sql = ("SELECT *, producent_produkt.id as skid FROM producent, produkt, producent_produkt where producent_id = producent.id and produkt_id = produkt.id");
             echo("<h2>".$sql."</h2>");
             $result=$conn->query($sql);
                     echo("<table border=1>");
@@ -60,7 +67,10 @@ require_once("../assets/connect.php");
                     while($row=$result->fetch_assoc()) {
                             echo("<tr>");
                                 echo("<td>".$row["producent"]."</td><td>".$row["produkt"]."</td>");
-                            echo("</tr>");
+                                echo("<td><form action='del1sklep.php' method=POST>");
+                                echo("<input type='hidden' name='id' value='".$row['skid']."'><input type='submit' value='DELETE'>");
+                                echo("</form></td>");
+                                echo("</tr>");
                         }
                     echo("</table>");
 
