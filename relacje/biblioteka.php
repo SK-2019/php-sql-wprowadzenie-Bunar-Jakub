@@ -33,6 +33,9 @@ include("../assets/menu.php");
                         while($row=$result->fetch_assoc()) {
                                 echo("<tr>");
                                     echo("<td>".$row["id"]."</td><td>".$row["nazwisko"]."</td>");
+                                    echo("<td><form action='del2biblioteka.php' method=POST>");
+                                    echo("<input type='hidden' name='id' value='".$row['id']."'><input type='submit' value='DELETE'>");
+                                    echo("</form></td>");
                                 echo("</tr>");
                             }
                         echo("</table>");
@@ -50,6 +53,9 @@ include("../assets/menu.php");
                         while($row=$result->fetch_assoc()) {
                                 echo("<tr>");
                                     echo("<td>".$row["id"]."</td><td>".$row["tytul"]."</td>");
+                                    echo("<td><form action='del3biblioteka.php' method=POST>");
+                                    echo("<input type='hidden' name='id' value='".$row['id']."'><input type='submit' value='DELETE'>");
+                                    echo("</form></td>");
                                 echo("</tr>");
                             }
                         echo("</table>");
