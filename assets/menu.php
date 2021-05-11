@@ -10,7 +10,7 @@
     <a class=navlink href="assets/flexbox.html">Flexbox</a>
     <h2>relacje<h2>
     <a class=navlink href="../relacje/biblioteka.php">biblioteka</a>
-    <a class=navlink href="../relacje/SPA.php">SPA</a>
     <a class=navlink href="../relacje/przychodnia.php">przychodnia</a>
-    <a class=navlink href="../relacje/szkola.php">szkola</a>
     <a class=navlink href="../relacje/sklep.php">sklep</a>
+    <a class=navlink href="../relacje/szkola.php">szkola</a>
+    <a class=navlink href="../relacje/SPA.php">SPA</a>

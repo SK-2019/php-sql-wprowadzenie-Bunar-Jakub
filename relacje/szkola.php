@@ -30,6 +30,9 @@ require_once("../assets/connect.php");
             while($row=$result->fetch_assoc()) {
                     echo("<tr>");
                         echo("<td>".$row["id"]."</td><td>".$row["nauczyciel"]."</td>");
+                        echo("<td><form action='del2szkola.php' method=POST>");
+                        echo("<input type='hidden' name='id' value='".$row['id']."'><input type='submit' value='DELETE'>");
+                        echo("</form></td>");
                     echo("</tr>");
                 }
             echo("</table>");
@@ -45,12 +48,15 @@ require_once("../assets/connect.php");
             while($row=$result->fetch_assoc()) {
                     echo("<tr>");
                         echo("<td>".$row["id"]."</td><td>".$row["klasa"]."</td>");
+                        echo("<td><form action='del3szkola.php' method=POST>");
+                        echo("<input type='hidden' name='id' value='".$row['id']."'><input type='submit' value='DELETE'>");
+                        echo("</form></td>");
                     echo("</tr>");
                 }
             echo("</table>");
 
 
-            $sql = ("SELECT * FROM nauczyciel, klasa, nauczyciel_klasa where nauczyciel_id = nauczyciel.id and klasa_id = klasa.id");
+            $sql = ("SELECT *, nauczyciel_klasa.id as nkid FROM nauczyciel, klasa, nauczyciel_klasa where nauczyciel_id = nauczyciel.id and klasa_id = klasa.id");
             echo("<h2>".$sql."</h2>");
             $result=$conn->query($sql);
                     echo("<table border=1>");
@@ -60,6 +66,9 @@ require_once("../assets/connect.php");
                     while($row=$result->fetch_assoc()) {
                             echo("<tr>");
                                 echo("<td>".$row["klasa"]."</td><td>".$row["nauczyciel"]."</td>");
+                                echo("<td><form action='del1szkola.php' method=POST>");
+                                echo("<input type='hidden' name='id' value='".$row['nkid']."'><input type='submit' value='DELETE'>");
+                                echo("</form></td>");
                             echo("</tr>");
                         }
                     echo("</table>");
