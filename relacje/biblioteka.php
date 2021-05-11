@@ -55,18 +55,21 @@ include("../assets/menu.php");
                         echo("</table>");
 
 
-                $sql = ("SELECT * FROM autor, tytul, autor_tytul  where autor_id = autor.id and tytul_id = tytul.id");
+                $sql = ("SELECT *, autor_tytul.id as atid FROM autor, tytul, autor_tytul  where autor_id = autor.id and tytul_id = tytul.id");
                 echo("<h2>".$sql."</h2>");
                 $result=$conn->query($sql);
                 
                         echo("<table border=1>");
                         echo("<th>autor</th>");
                         echo("<th>tytul</th>");
-    
+                        echo("<th>DELETE</th>");
 
                         while($row=$result->fetch_assoc()) {
                                 echo("<tr>");
                                     echo("<td>".$row["nazwisko"]."</td><td>".$row["tytul"]."</td>");
+                                    echo("<td><form action='del1biblioteka.php' method=POST>");
+                                    echo("<input type='hidden' name='id' value='".$row['atid']."'><input type='submit' value='DELETE'>");
+                                    echo("</form></td>");
                                 echo("</tr>");
                             }
                         echo("</table>");
